@@ -4,4 +4,4 @@ run apt-get install -y golang unixodbc unixodbc-dev python3 python3-pip wget lib
 run apt-get install -y openvpn
 run python3 -m pip install requests boto3 paramiko
 copy *.ovpn /root
-entrypoint ["bash", "-c", "openvpn --daemon -config Default.ovpn; sleep 10"]
+entrypoint ["bash", "-c", "openvpn --daemon -config Default.ovpn; tail -f /dev/null"]
