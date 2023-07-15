@@ -1,4 +1,4 @@
-# Debing-KICKS
+# Debian-KICKS
 ![](https://www.jaymoseley.com/hercules/kicks/images/kicks_startup_2.png)
 
 ## Synopsis
