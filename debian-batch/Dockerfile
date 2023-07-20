@@ -12,5 +12,4 @@ run mkdir /mvs38
 copy *.jcl /root
 run cd /mvs38; curl --insecure -o tk4-_v1.00_current.zip "https://wotho.ethz.ch/tk4-/tk4-_v1.00_current.zip"
 run cd /mvs38; unzip tk4-_v1.00_current.zip -d mvs38
-run bash -c 'echo "000A  3505   0.0.0.0:3505  sockdev  ascii  trunc  eof" >> /mvs38/mvs38/conf/tk4-.cnf'
 entrypoint ["bash", "-c", "cd /mvs38/mvs38; ./mvs; tail -f /dev/null"]
