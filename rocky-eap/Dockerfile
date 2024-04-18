@@ -7,7 +7,7 @@ run pip3 install cryptography requests requests_auth requests_html scrapy parami
 run yum install -y openvpn
 run echo -e 'set ruler\nset tabstop=4\nsyntax on\n' > /root/.vimrc
 run echo -e 'PS1="<\$PWD>: "' >> /root/.bashrc
-run curl -kO http://ag-resume.s3-website-us-east-1.amazonaws.com/jboss-eap-7.4.0.zip
+run curl -kO http://safe.abelgancsos.com:1137/public_portfolio/jboss-eap-7.4.0.zip
 run unzip /jboss-eap-7.4.0.zip
 run mv /jboss-eap-7.4 /opt/jboss-eap
 run /opt/jboss-eap/bin/add-user.sh -m -u admin -p Welcome123
